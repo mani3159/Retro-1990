@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Clothing Store - Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+            text-align: center;
+            animation: fadeIn 2s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .coming-soon-container {
+            max-width: 800px;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            font-size: 2.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+            letter-spacing: 1px;
+        }
+
+        .coming-soon-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin: 2rem 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #34495e;
+        }
+
+        .message {
+            font-size: 1.2rem;
+            line-height: 1.7;
+            margin: 1.5rem 0;
+            color: #555;
+        }
+
+        .offline-notice {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .contact {
+            font-size: 1rem;
+            margin-top: 2rem;
+        }
+
+        .contact a {
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 0.7rem 1.5rem;
+            background-color: #ff7e5f;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: background 0.3s ease;
+            font-weight: 600;
+        }
+
+        .contact a:hover {
+            background-color: #eb5757;
+        }
+    </style>
+</head>
+<body>
+    <div class="coming-soon-container">
+        <div class="logo">Local Clothing Store</div>
+        <h1>Our New Website is Coming Soon!</h1>
+
+        <div class="message">
+            We're working hard to bring you an amazing online shopping experience.<br>
+            Meanwhile, we're still accepting orders in offline mode.
+        </div>
+
+        <img src="./images/Coming Soon.JPG" alt="Coming Soon" class="coming-soon-image">
+
+        <div class="offline-notice">
+            <strong>Note:</strong> Orders are accepted in offline mode.
+        </div>
+
+        
+    </div>
+</body>
+</html>
